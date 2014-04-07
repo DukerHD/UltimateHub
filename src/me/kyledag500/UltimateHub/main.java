@@ -37,7 +37,7 @@ public class main extends JavaPlugin implements Listener{
 	Updater updater = null;
 	
 	public void onEnable(){
-		saveConfig();		
+		saveDefaultConfig();		
 		Bukkit.getPluginManager().registerEvents(this, this);		
         getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
         
